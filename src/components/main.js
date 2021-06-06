@@ -1,5 +1,5 @@
-import React from "react"
-
+import React from "react";
+import Footer from "./Footer/footer"
 function MainPage () {
     return (
         <>
@@ -17,7 +17,7 @@ function MainPage () {
       integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../../public/css/main.css" />
+    <link rel="stylesheet" href="./../public/css/main.css" />
     <title>Kelsey's Portfolio</title>
   </head>
   <body>
@@ -58,7 +58,7 @@ function MainPage () {
             <div class="col-md-4 col-sm-6">
               <img
                 id="bio"
-                src="../../public/bio.png"
+                src="./../public/images/bio.png"
                 alt="Me on a decorative staircase"
                 class="img-thumbnail img-fluid"
               />
@@ -88,24 +88,18 @@ function MainPage () {
           <a href="https://www.linkedin.com/in/kelsey-benedict-8396581a2/">
             <img
               class="socialmedia"
-              src="../../public/linkedinlogo.png"
+              src="../../public/images/linkedinlogo.png"
               alt="LinkedIn logo"
             />
           </a>
           <a href="https://github.com/kelseybenedict/kelseybenedict.github.io">
             <img
               class="socialmedia"
-              src="../../public/GitHub-Mark.png"
+              src="../../public/images/GitHub-Mark.png"
               alt="GitHub logo"
             />
           </a>
-          <a href="https://www.facebook.com/kelsey.benedict.1">
-            <img
-              class="socialmedia"
-              src="../../public/facebook.png"
-              alt="FaceBook logo"
-            />
-          </a>
+
         </div>
         <div class="col-md-4"></div>
       </div>
@@ -119,7 +113,7 @@ function MainPage () {
         <div class="col-md-4"></div>
       </div>
     </div>
-
+<Footer />
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
