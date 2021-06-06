@@ -30,7 +30,7 @@ function NavBar() {
                         Kelsey Benedict
                     </Typography></Link>
                     <Link to="/about" className="links">
-                        <Button>About</Button>
+                        <Button id="aboutButton">About</Button>
                     </Link>
                     <Link to="/portfolio" className="links">
                         <Button>Portfolio</Button></Link>

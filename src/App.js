@@ -8,7 +8,8 @@ import ContactMe from "./pages/Contact/index";
 
 function App() {
   return (
-    <Router><div className="App">
+    <Router basename={process.env.PUBLIC_URL}>
+      <div className="App">
       <Wrapper>
         <Route exact path="/" component={AboutMe} />
         <Route exact path="/about" component={AboutMe} />
