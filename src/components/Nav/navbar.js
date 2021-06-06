@@ -5,6 +5,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import { Link } from "react-router-dom";
+import "./navbar.css";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -25,14 +26,15 @@ function NavBar() {
         <div className={classes.root}>
             <AppBar position="static">
                 <Toolbar>
-                    <Link to="/about"><Typography variant="h6" className={classes.title}>
+                    <Link to="/about" className="links"><Typography variant="h6" className={classes.title}>
                         Kelsey Benedict
                     </Typography></Link>
-                    <Link to="/about">
-                        <Button color="inherit" >About</Button>
+                    <Link to="/about" className="links">
+                        <Button>About</Button>
                     </Link>
-                    <Link to="/portfolio"><Button color="inherit">Portfolio</Button></Link>
-                    <Link to="/contact"><Button color="inherit">Contact</Button></Link>
+                    <Link to="/portfolio" className="links">
+                        <Button>Portfolio</Button></Link>
+                    <Link to="/contact" className="links"><Button>Contact</Button></Link>
 
                 </Toolbar>
             </AppBar>
