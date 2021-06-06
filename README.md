@@ -1,5 +1,9 @@
 # React Portfolio
 
+## Deployed Site
+
+https://kelseybenedict.github.io/react-portfolio/
+
 ## Description
 
 Updated portfolio using React, where each component created is reusable. The routing is dynamic as well as the component that renders each project. 
