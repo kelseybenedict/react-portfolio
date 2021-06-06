@@ -1,0 +1,38 @@
+[
+    {
+        "title": "CineMunch",
+        "thumbnail": "https://i.imgur.com/3kYfiCe.png",
+        "deployed-app": "https://lasettebrown.github.io/project-1-cinemunch-ap-for-night-inn/",
+        "gh-repo": "https://github.com/LasetteBrown/project-1-cinemunch-ap-for-night-inn"
+    },
+    {
+        "title": "Grocery Grab",
+        "thumbnail": "https://i.imgur.com/v7IS7tq.png",
+        "deployed-app": "https://tranquil-bastion-55254.herokuapp.com/",
+        "gh-repo": "https://github.com/kelseybenedict/grocery-grab"
+    },
+    {
+        "title": "Fitness Tracker",
+        "thumbnail": "https://i.imgur.com/PXXy2tl.png",
+        "deployed-app": "https://boiling-wildwood-52835.herokuapp.com/?id=60b34898059e530015f79c73",
+        "gh-repo": "https://github.com/kelseybenedict/fitness-tracker"
+    },
+    {
+        "title": "eCommerce Backend",
+        "thumbnail": "https://i.imgur.com/SBxMaOw.png",
+        "deployed-app": "https://drive.google.com/file/d/1w38YPMOBq2YAaeZ8SiOUVMA5G8sBW6rR/view",
+        "gh-repo": "https://github.com/kelseybenedict/eCommerce-BackEnd"
+    },
+    {
+        "title": "Progressive Budget",
+        "thumbnail": "https://i.imgur.com/e3gOzyu.png",
+        "deployed-app": "https://fast-earth-80417.herokuapp.com/",
+        "gh-repo": "https://github.com/kelseybenedict/progressive-budget"
+    },
+    {
+        "title": "Code Quiz",
+        "thumbnail": "https://i.imgur.com/j34WvI1.png",
+        "deployed-app": "https://kelseybenedict.github.io/Code-Quiz/develop/",
+        "gh-repo": "https://github.com/kelseybenedict/Code-Quiz"
+    }
+]
