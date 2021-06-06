@@ -32,9 +32,9 @@ function NavBar() {
                     <Link to="/about" className={window.location.pathname === "/about"}>
                         <Button id="aboutButton">About</Button>
                     </Link>
-                    <Link to="/portfolio" className="links">
+                    <Link to="/portfolio" className={window.location.pathname === "/portfolio"}>
                         <Button>Portfolio</Button></Link>
-                    <Link to="/contact" className="links"><Button>Contact</Button></Link>
+                    <Link to="/contact" className={window.location.pathname === "/contact"}><Button>Contact</Button></Link>
 
                 </Toolbar>
             </AppBar>
