@@ -7,7 +7,6 @@ import Footer from "../../components/Footer/footer";
 function Portfolio (){
     return(
         <>
-        <NavBar />
         <ProjectInfo />
         <Footer />
         </>
