@@ -1,0 +1,10 @@
+#bioPicture {
+    margin-top: 70px;
+    height: 400px;
+    display: block;
+    margin-bottom: 10px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px;
+}
