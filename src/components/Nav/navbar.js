@@ -26,10 +26,10 @@ function NavBar() {
         <div className={classes.root}>
             <AppBar position="static">
                 <Toolbar>
-                    <Link to="/about" className="links"><Typography variant="h6" className={classes.title}>
+                    <Link to="/about" className={window.location.pathname === "/about"}><Typography variant="h6" className={classes.title}>
                         Kelsey Benedict
                     </Typography></Link>
-                    <Link to="/about" className="links">
+                    <Link to="/about" className={window.location.pathname === "/about"}>
                         <Button id="aboutButton">About</Button>
                     </Link>
                     <Link to="/portfolio" className="links">

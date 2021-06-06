@@ -1,23 +1,23 @@
 import './App.css';
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import Wrapper from "./components/wrapper";
+import { HashRouter as Router, Route } from "react-router-dom";
+//import Wrapper from "./components/wrapper";
 //import MainPage from "./components/main"
 import AboutMe from "./pages/AboutMe/index";
 import Portfolio from "./pages/Portfolio/index";
 import ContactMe from "./pages/Contact/index";
+import NavBar from "./components/Nav/navbar";
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
-      <div className="App">
-      <Wrapper>
+    <Router>
+      <div>
+      <NavBar />
         <Route exact path="/" component={AboutMe} />
         <Route exact path="/about" component={AboutMe} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/contact" component={ContactMe} />
-      </Wrapper>
-
-    </div></Router>
+      </div>
+      </Router>
 
   );
 }
