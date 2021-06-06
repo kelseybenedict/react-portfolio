@@ -5,13 +5,13 @@ import { HashRouter as Router, Route } from "react-router-dom";
 import AboutMe from "./pages/AboutMe/index";
 import Portfolio from "./pages/Portfolio/index";
 import ContactMe from "./pages/Contact/index";
-//import NavBar from "./components/Nav/navbar";
+import NavBar from "./components/Nav/navbar";
 
 function App() {
   return (
     <Router>
       <div>
-      
+      <NavBar />
         <Route exact path="/" component={AboutMe} />
         <Route exact path="/about" component={AboutMe} />
         <Route exact path="/portfolio" component={Portfolio} />
